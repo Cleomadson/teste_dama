@@ -6,7 +6,7 @@ int main(void)
     const int telaLateral = 700;
     const int telaAltura = 700;
 
-    int chaveTeste = 0;
+    int chaveTeste = 00;
 
     int tabuleiro[8][8];
 
@@ -43,7 +43,7 @@ int main(void)
                     int posY = j * celulaTamanho;
 
                     Color celulaCor = (i + j) % 2 == 0 ? WHITE : LIGHTGRAY;
-                    // As peÁas que a soma das coordenadas d· impar s„o as que as peÁas podem andar
+                    // As pe√ßas que a soma das coordenadas d√° impar s√£o as que as pe√ßas podem andar
 
                     DrawRectangle(posX, posY, celulaTamanho, celulaTamanho, celulaCor);
                     DrawRectangleLines(posX, posY, celulaTamanho, celulaTamanho, BLACK);
